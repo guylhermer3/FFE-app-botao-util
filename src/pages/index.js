@@ -16,11 +16,12 @@ export default function Home() {
           style={{
             display: "flex",
             alignItems: "center",
-            backgroundColor: "#171311",
+            backgroundColor: "#696969",
             padding: "20px",
             margin: "20px",
             borderRadius: "5px",
             color: "#fff",
+            border: "10px solid #4F4F4F",
           }}
         >
           <h2 style={{
@@ -33,9 +34,9 @@ export default function Home() {
           </h2>
           <button
             style={{
-              backgroundColor: "#171311",
-              color: "#109010",
-              border: "1px solid #109010",
+              backgroundColor: "#363636",
+              color: "#00FF00",
+              border: "2px solid #00FF00",
               borderRadius: "5px",
               padding: "10px",
               fontFamily: "Roboto, sans-serif",
@@ -44,13 +45,13 @@ export default function Home() {
             }}
             onClick={() => setVotoSim(true)}
           >
-            😁 Sim
+            😄 Sim
           </button>
           <button
             style={{
-              backgroundColor: "#171311",
-              color: "#e6211d",
-              border: "1px solid #e6211d",
+              backgroundColor: "#363636",
+              color: "#FF0000",
+              border: "2px solid #FF0000",
               borderRadius: "5px",
               padding: "10px",
               fontFamily: "Roboto, sans-serif",
@@ -68,18 +69,20 @@ export default function Home() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            backgroundColor: "#171311",
+            backgroundColor: "#696969",
             padding: "20px",
             margin: "20px",
             borderRadius: "5px",
             color: "#fff",
             textAlign: "center",
+            border: "10px solid #4F4F4F",
           }}
         >
           <h2 style={{ fontSize: "20px", fontWeight: "bold", fontFamily: "Roboto, sans-serif" }}>
             Obrigado!
           </h2>
-          <p style={{ fontSize: "16px", fontWeight: "bold", fontFamily: "Roboto, sans-serif" }}>
+          <br />
+          <p style={{ fontSize: "15px", fontWeight: "bold", fontFamily: "Roboto, sans-serif" }}>
             Sua opinião é muito importante para melhorarmos a qualidade dos nossos conteúdos!
           </p>
         </div>
